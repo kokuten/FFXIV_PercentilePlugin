@@ -11,7 +11,8 @@ namespace PercentilePlugin.Shared
 
         public Dictionary<string, Dictionary<string, List<double>>> Rankings { get; set; } =
             new Dictionary<string, Dictionary<string, List<double>>>();
-        
+
+        [System.Obsolete]
         public static PercentileData Load(string file)
         {
             // Return new instance if file does not exists

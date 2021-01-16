@@ -26,6 +26,8 @@ namespace PercentilePlugin.Shared
                     return "BRD";
                 case "Black Mage":
                     return "BLM";
+                case "Dancer":
+                    return "DNC";
                 case "Dark Knight":
                     return "DRK";
                 case "Dragoon":

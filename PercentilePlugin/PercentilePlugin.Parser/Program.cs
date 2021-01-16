@@ -23,7 +23,7 @@ namespace PercentilePlugin
         private static List<Instance> instances;
         private static PercentileData percentileData;
 
-        private static readonly string APIKey = "";
+        private static readonly string APIKey = "3fea98757b7f33b3ff4cb7b0c3a9d20e";
 
         public static async Task Main(string[] args)
         {
@@ -195,7 +195,7 @@ namespace PercentilePlugin
 
             try
             {
-                var request = WebRequest.Create("https://www.fflogs.com:443/v1/zones?api_key=" + apiKey);
+                var request = WebRequest.Create("https://github.com/kokuten/FFXIV_PercentilePlugin/raw/master/zones.json");
                 var response = await request.GetResponseAsync();
                 if (response.GetResponseStream() != null)
                     using (var reader =
