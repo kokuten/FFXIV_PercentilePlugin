@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "name": "Global",
+        "specs": [
+            {
+                "id": 1,
+                "name": "Astrologian"
+            },
+            {
+                "id": 2,
+                "name": "Bard"
+            },
+            {
+                "id": 3,
+                "name": "Black Mage"
+            },
+            {
+                "id": 4,
+                "name": "Dark Knight"
+            },
+            {
+                "id": 5,
+                "name": "Dragoon"
+            },
+            {
+                "id": 6,
+                "name": "Machinist"
+            },
+            {
+                "id": 7,
+                "name": "Monk"
+            },
+            {
+                "id": 8,
+                "name": "Ninja"
+            },
+            {
+                "id": 9,
+                "name": "Paladin"
+            },
+            {
+                "id": 10,
+                "name": "Scholar"
+            },
+            {
+                "id": 11,
+                "name": "Summoner"
+            },
+            {
+                "id": 12,
+                "name": "Warrior"
+            },
+            {
+                "id": 13,
+                "name": "White Mage"
+            },
+            {
+                "id": 14,
+                "name": "Red Mage"
+            },
+            {
+                "id": 15,
+                "name": "Samurai"
+            },
+            {
+                "id": 16,
+                "name": "Dancer"
+            },
+            {
+                "id": 17,
+                "name": "Gunbreaker"
+            }
+        ]
+    }
+]

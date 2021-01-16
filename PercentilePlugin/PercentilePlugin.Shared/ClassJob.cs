@@ -32,6 +32,8 @@ namespace PercentilePlugin.Shared
                     return "DRK";
                 case "Dragoon":
                     return "DRG";
+                case "Gunbreaker":
+                    return "GNB";
                 case "Machinist":
                     return "MCH";
                 case "Monk":
