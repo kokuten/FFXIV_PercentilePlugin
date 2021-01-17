@@ -21,9 +21,13 @@ namespace PercentilePlugin.Shared
         {
             switch (boss)
             {
+                case "Titan":
+                    return "The Navel (Unreal)";
+                    break;
                 case "Eden's Promise":
                 case "Oracle of Darkness":
                     return "Eden's Promise: Eternity (Savage)";
+                    break;
                 case "Cloud of Darkness":
                     return "Eden's Promise: Umbra (Savage)";
                     break;
