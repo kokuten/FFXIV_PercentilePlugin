@@ -1439,7 +1439,7 @@
     {
         "id": 30,
         "name": "Ultimates (Stormblood)",
-        "frozen": false,
+        "frozen": true,
         "encounters": [
             {
                 "id": 1047,
@@ -1544,7 +1544,7 @@
     {
         "id": 32,
         "name": "Ultimates",
-        "frozen": false,
+        "frozen": true,
         "encounters": [
             {
                 "id": 1050,

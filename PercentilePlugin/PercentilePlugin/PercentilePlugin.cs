@@ -208,8 +208,8 @@ namespace PercentilePlugin
                     return "Belias, the Gigas";
                 case "労働七号":
                     return "Construct 7";
-                case "鬼龍ヤズマット":
-                    return "Yiazmat";
+                case "タイタン":
+                    return "Titan";
             }
 
             return "";
