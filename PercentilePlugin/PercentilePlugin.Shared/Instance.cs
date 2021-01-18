@@ -21,12 +21,20 @@ namespace PercentilePlugin.Shared
         {
             switch (boss)
             {
+                case "The Unending Coil of Bahamut":
+                    return "The Unending Coil of Bahamut (Ultimate)";
+                    break;
+                case "The Weapon's Refrain":
+                    return "The Weapon's Refrain (Ultimate)";
+                    break;
+                case "The Epic of Alexander":
+                    return "The Epic of Alexander (Ultimate)";
+                    break;
+                case "Shiva":
+                    return "Akh Afah Amphitheatre (Unreal)";
+                    break;
                 case "Titan":
                     return "The Navel (Unreal)";
-                    break;
-                case "Eden's Promise":
-                case "Oracle of Darkness":
-                    return "Eden's Promise: Eternity (Savage)";
                     break;
                 case "Cloud of Darkness":
                     return "Eden's Promise: Umbra (Savage)";
@@ -36,6 +44,10 @@ namespace PercentilePlugin.Shared
                     break;
                 case "Fatebreaker":
                     return "Eden's Promise: Anamorphosis (Savage)";
+                    break;
+                case "Eden's Promise":
+                case "Oracle of Darkness":
+                    return "Eden's Promise: Eternity (Savage)";
                     break;
             }
 
