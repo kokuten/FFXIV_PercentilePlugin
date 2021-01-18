@@ -1010,78 +1010,104 @@
             }
         ]
     },
-  {
-    "id": 25,
-    "name": "Eden's Promise",
-    "frozen": false,
-    "encounters": [
-      {
-        "id": 73,
-        "name": "Cloud of Darkness"
-      },
-      {
-        "id": 74,
-        "name": "Shadowkeeper"
-      },
-      {
-        "id": 75,
-        "name": "Fatebreaker"
-      },
-      {
-        "id": 76,
-        "name": "Eden's Promise"
-      },
-      {
-        "id": 77,
-        "name": "Oracle of Darkness"
-      }
-    ],
-    "brackets": {
-      "min": 5,
-      "max": 5.4,
-      "bucket": 0.1,
-      "type": "Patch"
+    {
+        "id": 25,
+        "name": "Omega: Alphascape (Savage)",
+        "frozen": true,
+        "encounters": [
+            {
+                "id": 60,
+                "name": "Chaos"
+            },
+            {
+                "id": 61,
+                "name": "Midgardsormr"
+            },
+            {
+                "id": 62,
+                "name": "Omega"
+            },
+            {
+                "id": 63,
+                "name": "Omega-M and Omega-F"
+            },
+            {
+                "id": 64,
+                "name": "The Final Omega"
+            }
+        ],
+        "brackets": {
+            "min": 4,
+            "max": 4.5,
+            "bucket": 0.1,
+            "type": "Patch"
+        },
+        "partitions": [
+            {
+                "name": "Standard Comps",
+                "compact": "Standard",
+                "area": 1,
+                "default": true
+            },
+            {
+                "name": "Non-Standard Comps",
+                "compact": "Non-Standard",
+                "area": 1
+            },
+            {
+                "name": "Standard Comps",
+                "compact": "Standard",
+                "default": true,
+                "area": 2
+            },
+            {
+                "name": "Non-Standard Comps",
+                "compact": "Non-Standard",
+                "area": 2
+            },
+            {
+                "name": "Standard Comps",
+                "compact": "Standard",
+                "default": true,
+                "area": 3
+            },
+            {
+                "name": "Non-Standard Comps",
+                "compact": "Non-Standard",
+                "area": 3
+            },
+            {
+                "name": "Standard Comps (Echo)",
+                "compact": "Standard (Echo)",
+                "area": 1
+            },
+            {
+                "name": "Non-Standard Comps (Echo)",
+                "compact": "Non-Standard (Echo)",
+                "area": 1
+            },
+            {
+                "name": "Standard Comps (Echo)",
+                "compact": "Standard (Echo)",
+                "area": 2
+            },
+            {
+                "name": "Non-Standard Comps (Echo)",
+                "compact": "Non-Standard (Echo)",
+                "area": 2
+            },
+            {
+                "name": "Standard Comps (Echo)",
+                "compact": "Standard (Echo)",
+                "area": 3
+            },
+            {
+                "name": "Non-Standard Comps (Echo)",
+                "compact": "Non-Standard (Echo)",
+                "area": 3
+            }
+        ]
     },
-    "partitions": [
-      {
-        "name": "Standard Comps (5.4)",
-        "compact": "Standard (5.4)",
-        "filtered_name": "5.4",
-        "area": 1,
-        "default": true
-      },
-      {
-        "name": "Non-Standard Comps (5.4)",
-        "compact": "Non-Standard (5.4)",
-        "area": 1
-      },
-      {
-        "name": "Standard Comps (5.4)",
-        "compact": "Standard (5.4)",
-        "filtered_name": "5.4",
-        "area": 2,
-        "default": true
-      },
-      {
-        "name": "Non-Standard Comps (5.4)",
-        "compact": "Non-Standard (5.4)",
-        "area": 2
-      },
-      {
-        "name": "Standard Comps (5.4)",
-        "compact": "Standard (5.4)",
-        "filtered_name": "5.4",
-        "area": 3,
-        "default": true
-      },
-      {
-        "name": "Non-Standard Comps (5.4)",
-        "compact": "Non-Standard (5.4)",
-        "area": 3
-      }
-    ]
-  }
-,
     {
         "id": 26,
         "name": "The Orbonne Monastery",
@@ -1934,7 +1960,7 @@
     {
         "id": 36,
         "name": "Trials (Unreal)",
-        "frozen": true,
+        "frozen": false,
         "encounters": [
             {
                 "id": 3001,
@@ -2045,6 +2071,76 @@
                 "area": 3
             }
         ]
+    },
+    {
+        "id": 38,
+        "name": "Eden's Promise",
+        "frozen": false,
+        "encounters": [
+            {
+                "id": 73,
+                "name": "Cloud of Darkness"
+            },
+            {
+                "id": 74,
+                "name": "Shadowkeeper"
+            },
+            {
+                "id": 75,
+                "name": "Fatebreaker"
+            },
+            {
+                "id": 76,
+                "name": "Eden's Promise"
+            },
+            {
+                "id": 77,
+                "name": "Oracle of Darkness"
+            }
+        ],
+        "brackets": {
+            "min": 5,
+            "max": 5.4,
+            "bucket": 0.1,
+            "type": "Patch"
+        },
+        "partitions": [
+            {
+                "name": "Standard Comps (5.4)",
+                "compact": "Standard (5.4)",
+                "filtered_name": "5.4",
+                "area": 1,
+                "default": true
+            },
+            {
+                "name": "Non-Standard Comps (5.4)",
+                "compact": "Non-Standard (5.4)",
+                "area": 1
+            },
+            {
+                "name": "Standard Comps (5.4)",
+                "compact": "Standard (5.4)",
+                "filtered_name": "5.4",
+                "area": 2,
+                "default": true
+            },
+            {
+                "name": "Non-Standard Comps (5.4)",
+                "compact": "Non-Standard (5.4)",
+                "area": 2
+            },
+            {
+                "name": "Standard Comps (5.4)",
+                "compact": "Standard (5.4)",
+                "filtered_name": "5.4",
+                "area": 3,
+                "default": true
+            },
+            {
+                "name": "Non-Standard Comps (5.4)",
+                "compact": "Non-Standard (5.4)",
+                "area": 3
+            }
+        ]
     }
-    
 ]
